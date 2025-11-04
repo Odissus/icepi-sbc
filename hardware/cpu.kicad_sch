@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "3edc5797-9258-4914-a201-5a48ba5642f5")
 	(paper "A4")
+	(title_block
+		(title "Icepi CM0")
+		(date "2025-11-03")
+		(rev "v1.0")
+		(company "Icy Electronics")
+		(comment 1 "Chengyin Yao (cheyao)")
+		(comment 2 "https://github.com/cheyao/icepi-cm0")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -17188,7 +17196,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25092"
 			(at 53.34 149.86 90)
 			(effects
 				(font
@@ -18040,7 +18048,7 @@
 				)
 			)
 		)
-		(property "Value" "243"
+		(property "Value" "240"
 			(at 53.34 164.846 90)
 			(effects
 				(font
@@ -18075,7 +18083,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C23350"
 			(at 53.34 162.56 90)
 			(effects
 				(font
@@ -18221,7 +18229,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C1525"
 			(at 41.91 165.1 0)
 			(effects
 				(font
@@ -19662,6 +19670,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1525"
+			(at 204.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d423aa03-a235-4e6e-8a56-ae81e45607f4")
 		)
@@ -19729,7 +19746,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25092"
 			(at 53.34 152.4 90)
 			(effects
 				(font
@@ -19800,6 +19817,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 212.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 212.09 110.49 0)
 			(effects
 				(font
@@ -21367,6 +21393,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 284.48 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
 			(at 284.48 104.14 0)
 			(effects
 				(font

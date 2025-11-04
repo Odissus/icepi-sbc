@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "3894b81b-7803-4200-9150-192386c076f6")
 	(paper "A4")
+	(title_block
+		(title "Icepi CM0")
+		(date "2025-11-03")
+		(rev "v1.0")
+		(company "Icy Electronics")
+		(comment 1 "Chengyin Yao (cheyao)")
+		(comment 2 "https://github.com/cheyao/icepi-cm0")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_A_Stacked"
 			(pin_names
@@ -2304,130 +2312,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
+	)
+	(bus_alias "USB"
+		(members "USB_D0+" "USB_D0-" "USB_D1+" "USB_D1-" "USB_D2+" "USB_D2-" "USB_D3+"
+			"USB_D3-"
 		)
 	)
 	(text "USB0 OTG"
@@ -2450,10 +2338,10 @@
 		)
 		(uuid "c2526855-99e4-4faa-8b06-157c062840a9")
 	)
-	(text_box "SY6280AAC: Current limiter\nIlim (A)=6800/Rset (ohm)\nUSB spec gives 0.5A\nWe'll be generous and give 0.68A\n\nUSB PD:\n0ohm to GND for 5V."
+	(text_box "SY6280AAC: Current limiter\nIlim (A)=6800/Rset (ohm)\nUSB spec gives 0.5A\nWe'll be generous and give 0.68A\nUsing these bad boys instead of fuses\nbecause they can block reverse current\n\nUSB PD:\n0ohm to GND for 5V."
 		(exclude_from_sim no)
 		(at 112.014 138.684 0)
-		(size 35.814 15.748)
+		(size 40.894 19.812)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -4670,7 +4558,7 @@
 		)
 		(uuid "5a112ebb-a133-4cf7-b2e8-e41722ecf970")
 	)
-	(label "USB_VBUS2"
+	(label "USB_VBUS3"
 		(at 187.96 29.21 0)
 		(effects
 			(font
@@ -4740,6 +4628,16 @@
 		)
 		(uuid "874c268d-85e8-4f87-a65e-2195cd84b66b")
 	)
+	(label "USB_VBUS0"
+		(at 59.69 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97a29573-3fb0-4e83-ad5d-2dc38c8cd885")
+	)
 	(label "USB_D1+"
 		(at 69.85 100.33 180)
 		(effects
@@ -4790,7 +4688,7 @@
 		)
 		(uuid "b2d4ce42-2395-44b3-9e90-98ddfc60c1c0")
 	)
-	(label "USB_VBUS1"
+	(label "USB_VBUS2"
 		(at 187.96 26.67 0)
 		(effects
 			(font
@@ -4819,6 +4717,16 @@
 			(justify left bottom)
 		)
 		(uuid "d2a3d2cf-6ccc-493b-9e58-02373d01105e")
+	)
+	(label "USB_VBUS1"
+		(at 59.69 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6101294-3f35-47cf-8d0b-5e3cdbe3aa96")
 	)
 	(label "PWR_D+"
 		(at 59.69 167.64 0)
@@ -4938,7 +4846,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15525"
+		(property "LCSC Part #" "C19702"
 			(at 228.6 31.75 0)
 			(effects
 				(font
@@ -5008,6 +4916,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 102.87 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 102.87 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5142,6 +5059,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25796"
+			(at 63.5 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,6 +5289,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744"
+			(at 233.68 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b22cef3d-357b-485f-a61e-b3a04012fcc6")
 		)
@@ -5512,6 +5447,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C55136"
+			(at 114.3 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87ebae5a-a366-4ef4-bcaa-bd0a52a01ba5")
 		)
@@ -5590,7 +5534,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15525"
+		(property "LCSC Part #" "C19702"
 			(at 261.62 31.75 0)
 			(effects
 				(font
@@ -5660,6 +5604,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 233.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 233.68 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6015,7 +5968,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15525"
+		(property "LCSC Part #" "C19702"
 			(at 130.81 31.75 0)
 			(effects
 				(font
@@ -6058,7 +6011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 73.66 134.6201 0)
 			(effects
 				(font
@@ -6086,6 +6039,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C52923"
 			(at 69.85 135.89 0)
 			(effects
 				(font
@@ -6164,7 +6126,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15525"
+		(property "LCSC Part #" "C19702"
 			(at 97.79 31.75 0)
 			(effects
 				(font
@@ -6305,6 +6267,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 130.81 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fd1ba3c-81a4-4e91-82ba-dc4e62708673")
+		(property "Reference" "#PWR042"
+			(at 130.81 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 130.81 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df284831-d60e-48e7-acaf-8de19aec7b3f")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/62512c11-db29-412e-825e-173059bf3d51"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 228.6 64.77 0)
 		(mirror y)
@@ -6359,7 +6387,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15525"
+		(property "LCSC Part #" "C19702"
 			(at 228.6 64.77 0)
 			(effects
 				(font
@@ -6429,6 +6457,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 102.87 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25744"
+			(at 102.87 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,6 +6740,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C55136"
+			(at 245.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd3676bb-3d56-4738-970f-7d14b039d26b")
 		)
@@ -6722,6 +6768,72 @@
 			(project ""
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/62512c11-db29-412e-825e-173059bf3d51"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 130.81 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a63b318-2dfb-4070-bcec-a91578a5e6e1")
+		(property "Reference" "#PWR046"
+			(at 130.81 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 130.81 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 130.81 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f14eaef7-4d68-4492-bc26-0b2ed34bfc01")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/62512c11-db29-412e-825e-173059bf3d51"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6849,7 +6961,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15525"
+		(property "LCSC Part #" "C19702"
 			(at 97.79 91.44 0)
 			(effects
 				(font
@@ -6868,72 +6980,6 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/62512c11-db29-412e-825e-173059bf3d51"
 					(reference "C23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 271.78 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "711c9818-cae0-4a29-8075-01ff26ee63fb")
-		(property "Reference" "#PWR042"
-			(at 271.78 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 271.78 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 271.78 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "da003afa-162c-47cc-bd43-cf032d6d3ef9")
-		)
-		(instances
-			(project ""
-				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/62512c11-db29-412e-825e-173059bf3d51"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7237,6 +7283,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25796"
+			(at 63.5 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e10f4af-16a1-49d1-b2dc-ea319d757e95")
 		)
@@ -7253,17 +7308,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 130.81 24.13 0)
+		(lib_id "power:+5V")
+		(at 271.78 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "85aeee9f-c294-4145-ac68-cebb8fd6103e")
-		(property "Reference" "#PWR046"
-			(at 130.81 27.94 0)
+		(uuid "8999b554-fbea-486a-af8f-92e24dd198ae")
+		(property "Reference" "#PWR052"
+			(at 271.78 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,8 +7326,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
-			(at 130.81 19.05 0)
+		(property "Value" "+5V"
+			(at 271.78 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +7335,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 24.13 0)
+			(at 271.78 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7289,7 +7344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 24.13 0)
+			(at 271.78 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7297,8 +7352,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 130.81 24.13 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 271.78 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7307,12 +7362,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "26a04b61-ba11-4edf-b0ff-5b7ab63f8f70")
+			(uuid "9df00a2d-8346-4f32-a810-c6e629afdf41")
 		)
 		(instances
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/62512c11-db29-412e-825e-173059bf3d51"
-					(reference "#PWR046")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -7372,7 +7427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15525"
+		(property "LCSC Part #" "C19702"
 			(at 261.62 64.77 0)
 			(effects
 				(font
@@ -7441,6 +7496,15 @@
 			)
 		)
 		(property "Description" "100W 3V~22V 5V Power Receiver USB PD Controller"
+			(at 85.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C22373734"
 			(at 85.09 158.75 0)
 			(effects
 				(font
@@ -7525,6 +7589,15 @@
 			)
 		)
 		(property "Description" "1 Active High High Side Switch SOT-23-5 Power Distribution Switches, Load Drivers RoHS"
+			(at 114.3 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C55136"
 			(at 114.3 90.17 0)
 			(effects
 				(font
@@ -7618,72 +7691,6 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/62512c11-db29-412e-825e-173059bf3d51"
 					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 130.81 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af486d84-63b3-4196-9c13-290d25537cca")
-		(property "Reference" "#PWR053"
-			(at 130.81 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 130.81 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 130.81 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4211d365-6c78-419d-8764-67644817847a")
-		)
-		(instances
-			(project "cm0"
-				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/62512c11-db29-412e-825e-173059bf3d51"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7859,7 +7866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C15525"
+		(property "LCSC Part #" "C19702"
 			(at 130.81 91.44 0)
 			(effects
 				(font
@@ -8003,6 +8010,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C55136"
+			(at 245.11 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3702bd6f-3e22-488e-aa72-dcb9ea4ee0af")
 		)
@@ -8073,6 +8089,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25796"
+			(at 63.5 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8207,6 +8232,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 63.5 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25796"
+			(at 63.5 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "b53f5dbb-8078-4818-9e8f-fdf90ba6d854")
 	(paper "A4")
+	(title_block
+		(title "Icepi CM0")
+		(date "2025-11-03")
+		(rev "v1.0")
+		(company "Icy Electronics")
+		(comment 1 "Chengyin Yao (cheyao)")
+		(comment 2 "https://github.com/cheyao/icepi-cm0")
+	)
 	(lib_symbols)
 	(bus
 		(pts
@@ -24,6 +32,16 @@
 			(type default)
 		)
 		(uuid "12fc1f96-bf22-402f-82b5-b83380493bd9")
+	)
+	(bus
+		(pts
+			(xy 93.98 66.04) (xy 101.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299ee8cb-d90f-4fbf-8e82-40d5cea3279b")
 	)
 	(wire
 		(pts
@@ -199,6 +217,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "{USB}" bidirectional
+			(at 93.98 66.04 0)
+			(uuid "39fdee15-75b9-4fa4-a448-ca071cd3c5e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -440,6 +468,16 @@
 		(pin "{GPDI}" output
 			(at 101.6 40.64 180)
 			(uuid "ab45e475-685c-441a-b785-c25452c45056")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "{USB}" bidirectional
+			(at 101.6 66.04 180)
+			(uuid "917918da-ca50-4f26-8b47-9546ec5ace62")
 			(effects
 				(font
 					(size 1.27 1.27)

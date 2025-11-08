@@ -1111,6 +1111,258 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "AudioJack_PJ-342"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 12.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack_PJ-342"
+			(at 0 9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cm0:Jack_3.5mm_SHOUHAN_PJ-342"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Jack*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AudioJack_PJ-342_0_1"
+			(polyline
+				(pts
+					(xy -0.635 -1.27) (xy 0 -1.905) (xy 0.635 -1.27) (xy 0.635 1.27) (xy 3.81 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy 1.905 -1.905) (xy 2.54 -1.27) (xy 3.81 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 3.81) (xy -1.27 3.81) (xy -1.27 -1.27) (xy -1.905 -1.905) (xy -2.54 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "AudioJack_PJ-342_1_1"
+			(rectangle
+				(start -5.715 8.255)
+				(end 3.81 -7.62)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -4.445 -3.175)
+				(end -3.175 -6.35)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 132 132 132 1)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 6.35) (xy -3.81 6.35) (xy -3.81 -1.905) (xy -3.81 -3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 6.35 6.35 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 3.81 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -1.27 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -1.27 180)
+				(length 2.54)
+				(hide yes)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "EMMC5.1_BGA153"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4548,7 +4800,7 @@
 			)
 		)
 		(property "Footprint" "cm0:FBGA-347_14x14mm_Layout21x21_P0.65mm"
-			(at 0 -1.27 0)
+			(at 0 0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,7 +4809,7 @@
 			)
 		)
 		(property "Datasheet" "https://linux-sunxi.org/images/4/4b/Allwinner_H3_Datasheet_V1.2.pdf"
-			(at 0 -1.27 0)
+			(at 0 0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4566,7 +4818,7 @@
 			)
 		)
 		(property "Description" "Allwinner Tech H3 Quad-Core Processor"
-			(at 0 -1.27 0)
+			(at 0 0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6202,7 +6454,7 @@
 		)
 		(symbol "H3_2_0"
 			(pin power_in line
-				(at -12.7 16.51 270)
+				(at -15.24 17.78 270)
 				(length 5.08)
 				(name "VDD-EFUSE"
 					(effects
@@ -6220,7 +6472,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 16.51 270)
+				(at -10.16 17.78 270)
 				(length 5.08)
 				(name "VDD-EFUSEEBP"
 					(effects
@@ -6238,7 +6490,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(name "VDD-CPUX"
 					(effects
@@ -6256,7 +6508,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6275,7 +6527,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6294,7 +6546,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6313,7 +6565,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6332,7 +6584,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6351,7 +6603,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6370,7 +6622,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6389,7 +6641,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6408,7 +6660,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6427,7 +6679,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6446,7 +6698,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6465,7 +6717,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 16.51 270)
+				(at -5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUX"
@@ -6484,7 +6736,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -6502,7 +6754,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6521,7 +6773,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6540,7 +6792,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6559,7 +6811,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6578,7 +6830,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6597,7 +6849,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6616,7 +6868,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6635,7 +6887,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6654,7 +6906,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6673,7 +6925,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6692,7 +6944,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6711,7 +6963,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6730,7 +6982,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6749,7 +7001,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6768,7 +7020,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6787,7 +7039,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6806,7 +7058,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6825,7 +7077,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6844,7 +7096,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6863,7 +7115,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6882,7 +7134,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6901,7 +7153,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6920,7 +7172,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6939,7 +7191,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6958,7 +7210,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6977,7 +7229,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -6996,7 +7248,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7015,7 +7267,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7034,7 +7286,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7053,7 +7305,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7072,7 +7324,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7091,7 +7343,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7110,7 +7362,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7129,7 +7381,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7148,7 +7400,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7167,7 +7419,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7186,7 +7438,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7205,7 +7457,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7224,7 +7476,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7243,7 +7495,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7262,7 +7514,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7281,7 +7533,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7300,7 +7552,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7319,7 +7571,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7338,7 +7590,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7357,7 +7609,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7376,7 +7628,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -16.51 90)
+				(at -1.27 -17.78 90)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -7395,7 +7647,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 16.51 270)
+				(at 0 17.78 270)
 				(length 5.08)
 				(name "VDD-CPUS"
 					(effects
@@ -7413,7 +7665,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 16.51 270)
+				(at 0 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-CPUS"
@@ -7432,7 +7684,25 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 1.27 -17.78 90)
+				(length 5.08)
+				(name "GND-CPUFB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(name "VDD-SYS"
 					(effects
@@ -7450,7 +7720,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-SYS"
@@ -7469,7 +7739,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-SYS"
@@ -7488,7 +7758,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-SYS"
@@ -7507,7 +7777,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-SYS"
@@ -7526,7 +7796,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-SYS"
@@ -7545,7 +7815,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-SYS"
@@ -7564,7 +7834,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-SYS"
@@ -7583,7 +7853,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-SYS"
@@ -7602,7 +7872,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-SYS"
@@ -7621,7 +7891,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-SYS"
@@ -7640,7 +7910,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 16.51 270)
+				(at 5.08 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VDD-SYS"
@@ -7659,7 +7929,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 16.51 270)
+				(at 10.16 17.78 270)
 				(length 5.08)
 				(name "VCC-IO"
 					(effects
@@ -7677,7 +7947,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 16.51 270)
+				(at 10.16 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VCC-IO"
@@ -7696,7 +7966,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 16.51 270)
+				(at 10.16 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VCC-IO"
@@ -7715,7 +7985,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 16.51 270)
+				(at 10.16 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VCC-IO"
@@ -7734,7 +8004,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 16.51 270)
+				(at 10.16 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VCC-IO"
@@ -7753,7 +8023,7 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 16.51 270)
+				(at 10.16 17.78 270)
 				(length 5.08)
 				(hide yes)
 				(name "VCC-IO"
@@ -7771,11 +8041,29 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 15.24 17.78 270)
+				(length 5.08)
+				(name "VDD-CPUFB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "H3_2_1"
 			(rectangle
-				(start -13.97 11.43)
-				(end 13.97 -11.43)
+				(start -17.145 12.7)
+				(end 17.145 -12.7)
 				(stroke
 					(width 0)
 					(type solid)
@@ -7785,7 +8073,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 16.51 -6.35 180)
+				(at 19.685 -6.35 180)
 				(length 2.54)
 				(hide yes)
 				(name "NC"
@@ -8730,7 +9018,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 13.97 180)
+				(at 22.86 17.78 180)
 				(length 5.08)
 				(name "EPHY_VDD"
 					(effects
@@ -8748,7 +9036,7 @@
 				)
 			)
 			(pin power_in line
-				(at 22.86 11.43 180)
+				(at 22.86 15.24 180)
 				(length 5.08)
 				(name "EPHY_VCC"
 					(effects
@@ -8766,7 +9054,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 6.35 180)
+				(at 22.86 10.16 180)
 				(length 5.08)
 				(name "EPHY_RXP"
 					(effects
@@ -8784,7 +9072,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 3.81 180)
+				(at 22.86 7.62 180)
 				(length 5.08)
 				(name "EPHY_RXN"
 					(effects
@@ -8802,7 +9090,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 1.27 180)
+				(at 22.86 5.08 180)
 				(length 5.08)
 				(name "EPHY_TXP"
 					(effects
@@ -8820,7 +9108,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -1.27 180)
+				(at 22.86 2.54 180)
 				(length 5.08)
 				(name "EPHY_TXN"
 					(effects
@@ -8838,7 +9126,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -6.35 180)
+				(at 22.86 -2.54 180)
 				(length 5.08)
 				(name "EPHY_LINK_LED"
 					(effects
@@ -8856,7 +9144,7 @@
 				)
 			)
 			(pin output line
-				(at 22.86 -8.89 180)
+				(at 22.86 -5.08 180)
 				(length 5.08)
 				(name "EPHY_SPD_LED"
 					(effects
@@ -8874,7 +9162,7 @@
 				)
 			)
 			(pin input line
-				(at 22.86 -13.97 180)
+				(at 22.86 -10.16 180)
 				(length 5.08)
 				(name "EPHY_RTX"
 					(effects
@@ -8884,6 +9172,60 @@
 					)
 				)
 				(number "F6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 -17.78 180)
+				(length 5.08)
+				(name "V33_TV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 22.86 -20.32 180)
+				(length 5.08)
+				(name "TVOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 -22.86 180)
+				(length 5.08)
+				(name "GND_TV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8906,6 +9248,18 @@
 			)
 			(polyline
 				(pts
+					(xy 0 -13.97) (xy 16.51 -13.97)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
 					(xy 0 -24.13) (xy 0 24.13)
 				)
 				(stroke
@@ -8918,6 +9272,14 @@
 			)
 			(text "GPDI"
 				(at -11.43 -22.098 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+				)
+			)
+			(text "TV"
+				(at 2.794 -16.256 0)
 				(effects
 					(font
 						(size 2.54 2.54)
@@ -9694,7 +10056,7 @@
 						)
 					)
 				)
-				(number "C9"
+				(number "C8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10634,6 +10996,576 @@
 					(font
 						(size 1.905 1.905)
 					)
+				)
+			)
+		)
+		(symbol "H3_7_0"
+			(pin bidirectional line
+				(at -19.05 10.16 0)
+				(length 5.08)
+				(name "X24MOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 7.62 0)
+				(length 5.08)
+				(name "X24MIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -19.05 2.54 0)
+				(length 5.08)
+				(name "VCC_RTC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -19.05 0 0)
+				(length 5.08)
+				(name "RTC_VIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -19.05 -5.08 0)
+				(length 5.08)
+				(name "X32KFOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 -7.62 0)
+				(length 5.08)
+				(name "X32KOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -19.05 -10.16 0)
+				(length 5.08)
+				(name "X32KIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 12.7 180)
+				(length 5.08)
+				(name "UBOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 19.05 10.16 180)
+				(length 5.08)
+				(name "JTAG-SEL0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 19.05 7.62 180)
+				(length 5.08)
+				(name "JTAG-SEL1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 5.08 180)
+				(length 5.08)
+				(name "TEST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 2.54 180)
+				(length 5.08)
+				(name "NMI"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AA6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 0 180)
+				(length 5.08)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -5.08 180)
+				(length 5.08)
+				(name "KEYADC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AA5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 19.05 -10.16 180)
+				(length 5.08)
+				(name "PLLTEST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 19.05 -12.7 180)
+				(length 5.08)
+				(name "VCC_PLL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "H3_7_1"
+			(rectangle
+				(start -13.97 14.605)
+				(end 13.97 -14.605)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "H3_8_0"
+			(pin bidirectional line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "LINEOUTL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AA3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 2.54 0)
+				(length 5.08)
+				(name "LINEOUTR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "LINEINL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -17.78 -5.08 0)
+				(length 5.08)
+				(name "LINEINR"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 17.78 270)
+				(length 5.08)
+				(name "AVCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -17.78 90)
+				(length 5.08)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "U3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 10.16 180)
+				(length 5.08)
+				(name "VRP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 7.62 180)
+				(length 5.08)
+				(name "VRA1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 5.08 180)
+				(length 5.08)
+				(name "VRA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 0 180)
+				(length 5.08)
+				(name "MICIN1N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "MICIN1P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -5.08 180)
+				(length 5.08)
+				(name "MICIN2N"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AA2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -7.62 180)
+				(length 5.08)
+				(name "MICIN2P"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 17.78 -10.16 180)
+				(length 5.08)
+				(name "MBIAS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "W3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "H3_8_1"
+			(rectangle
+				(start -12.7 12.7)
+				(end 12.7 -12.7)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
 				)
 			)
 		)

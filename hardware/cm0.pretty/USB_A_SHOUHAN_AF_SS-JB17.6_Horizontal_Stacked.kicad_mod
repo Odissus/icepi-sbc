@@ -692,15 +692,15 @@
 		(uuid "48564f19-492e-46b6-aa7e-667f2628d3f9")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_Wuerth_61400826021_Horizontal_Stacked.step"
+	(model "${KIPRJMOD}/cm0.pretty/USB-A-TH_AF-SS-JB17.6.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -3.75 3)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

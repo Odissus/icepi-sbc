@@ -445,4 +445,15 @@
 		(uuid "a9195394-bf16-4769-adf0-37d52b6197f5")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/cm0.pretty/TF-SMD_TF-02.step"
+		(offset
+			(xyz 0 -1.6 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

@@ -208,6 +208,7 @@
         0.15,
         0.1511,
         0.1565,
+        0.1618,
         0.2,
         0.25,
         0.4,
@@ -655,7 +656,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -680,6 +681,18 @@
           "label": "LCSC Part #",
           "name": "LCSC Part #",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Position Offset",
+          "name": "FT Position Offset",
+          "show": false
         }
       ],
       "filter_string": "",

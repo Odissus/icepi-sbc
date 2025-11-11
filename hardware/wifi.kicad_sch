@@ -1161,6 +1161,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "cm0:+3V3_WIFI"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3_WIFI"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3_WIFI\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_WIFI_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_WIFI_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "cm0:AP6212"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3862,12 +3987,6 @@
 		(uuid "15846e52-799d-4198-95e2-a0381df636be")
 	)
 	(junction
-		(at 107.95 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "164970fa-13cb-49b2-8db2-d1abd6c5fa53")
-	)
-	(junction
 		(at 92.71 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3886,6 +4005,12 @@
 		(uuid "2e82c04b-5fa6-43c7-9b3d-09cc2733fc68")
 	)
 	(junction
+		(at 111.76 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33a81bdd-9e18-49be-965a-e1c042fceef9")
+	)
+	(junction
 		(at 143.51 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3896,12 +4021,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "371cd43d-519c-4b96-96f8-843883801724")
-	)
-	(junction
-		(at 118.11 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ead1cd2-7f7f-402d-83f0-7978f993adf2")
 	)
 	(junction
 		(at 190.5 80.01)
@@ -3964,6 +4083,18 @@
 		(uuid "666df3e3-8933-4b03-8bd7-79e7d8e2e583")
 	)
 	(junction
+		(at 106.68 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6965f853-43cd-4fd8-92ce-b0df023fb0c0")
+	)
+	(junction
+		(at 101.6 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d184f49-d52a-4dd2-a963-245f4e9f93d1")
+	)
+	(junction
 		(at 77.47 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4000,12 +4131,6 @@
 		(uuid "87d36ec6-3fb4-46eb-8521-f6e539bc5865")
 	)
 	(junction
-		(at 113.03 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c83cb25-033c-4f49-88df-38424272e22f")
-	)
-	(junction
 		(at 144.78 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4016,6 +4141,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ec18456-aff6-400c-a9b1-e0210051c4f2")
+	)
+	(junction
+		(at 106.68 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99cf708f-fb32-4b8d-90ac-d5ed2710105d")
 	)
 	(junction
 		(at 175.26 74.93)
@@ -4060,16 +4191,16 @@
 		(uuid "e1f03420-af43-4306-8276-d9d1e6cffd94")
 	)
 	(junction
-		(at 113.03 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e58e953b-20d3-44aa-b526-7e71a4f72be3")
-	)
-	(junction
 		(at 148.59 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeaecc9e-118b-4ede-b658-be728d4cbdce")
+	)
+	(junction
+		(at 176.53 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd61b671-e772-47e0-9cc4-3146ff58898a")
 	)
 	(junction
 		(at 144.78 29.21)
@@ -4324,6 +4455,26 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 105.41) (xy 181.61 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ed1df9-77b5-4852-920d-7a21f3db720f")
+	)
+	(wire
+		(pts
+			(xy 111.76 107.95) (xy 111.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0591537c-863f-4d78-ace0-872d8fb17950")
+	)
+	(wire
+		(pts
 			(xy 194.31 82.55) (xy 194.31 80.01)
 		)
 		(stroke
@@ -4424,16 +4575,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 54.61) (xy 123.19 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17201dd6-657e-4ee5-8e6d-c6b79740eaa0")
-	)
-	(wire
-		(pts
 			(xy 134.62 162.56) (xy 133.35 162.56)
 		)
 		(stroke
@@ -4464,16 +4605,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 39.37) (xy 113.03 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a65dc1b-bde8-46f0-a345-9b3863f353fe")
-	)
-	(wire
-		(pts
 			(xy 87.63 30.48) (xy 92.71 30.48)
 		)
 		(stroke
@@ -4494,6 +4625,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 77.47) (xy 106.68 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c3b081-bd44-42d3-9cb1-1e13710bd62d")
+	)
+	(wire
+		(pts
 			(xy 144.78 114.3) (xy 144.78 115.57)
 		)
 		(stroke
@@ -4501,6 +4642,16 @@
 			(type default)
 		)
 		(uuid "24e585d2-4a2b-4128-b2d7-04a5d03c259b")
+	)
+	(wire
+		(pts
+			(xy 111.76 52.07) (xy 123.19 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25ffc7ae-48e2-4881-961b-15427cf51cc7")
 	)
 	(wire
 		(pts
@@ -4534,16 +4685,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 30.48) (xy 118.11 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29f767c0-fd1b-4b36-8aeb-4af904c87315")
-	)
-	(wire
-		(pts
 			(xy 92.71 39.37) (xy 92.71 69.85)
 		)
 		(stroke
@@ -4571,6 +4712,16 @@
 			(type default)
 		)
 		(uuid "2f67f314-6479-49ef-9c03-9a885fbb2af8")
+	)
+	(wire
+		(pts
+			(xy 101.6 107.95) (xy 101.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fee1dca-b481-4c69-b5de-7c56d8798669")
 	)
 	(wire
 		(pts
@@ -4642,6 +4793,16 @@
 		)
 		(uuid "38aa4f5f-3db6-4708-9542-24b48ba91120")
 	)
+	(wire
+		(pts
+			(xy 176.53 104.14) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a16611f-d839-42b1-b95c-ba15c7e042a9")
+	)
 	(bus
 		(pts
 			(xy 59.69 52.07) (xy 59.69 49.53)
@@ -4701,16 +4862,6 @@
 			(type default)
 		)
 		(uuid "48f97225-17ce-488a-8fd6-7994c0030f17")
-	)
-	(wire
-		(pts
-			(xy 113.03 30.48) (xy 113.03 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49949274-1169-4821-8949-7e9086ee793c")
 	)
 	(wire
 		(pts
@@ -4834,7 +4985,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 54.61) (xy 113.03 54.61)
+			(xy 62.23 54.61) (xy 123.19 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4942,6 +5093,16 @@
 		)
 		(uuid "69076ef2-826a-4029-9cc9-ef963ea1a3ee")
 	)
+	(wire
+		(pts
+			(xy 106.68 107.95) (xy 106.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1880ef-85a8-42a5-a14d-1e221a34383d")
+	)
 	(bus
 		(pts
 			(xy 59.69 44.45) (xy 54.61 44.45)
@@ -4964,7 +5125,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 105.41) (xy 181.61 105.41)
+			(xy 166.37 105.41) (xy 176.53 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5064,6 +5225,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 77.47) (xy 123.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe12695-9e8a-43fe-9b25-9531e40f6713")
+	)
+	(wire
+		(pts
 			(xy 83.82 165.1) (xy 54.61 165.1)
 		)
 		(stroke
@@ -5134,16 +5305,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 52.07) (xy 118.11 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88cb6556-9af7-405b-86ee-e16248bdc84c")
-	)
-	(wire
-		(pts
 			(xy 82.55 77.47) (xy 82.55 39.37)
 		)
 		(stroke
@@ -5151,6 +5312,16 @@
 			(type default)
 		)
 		(uuid "8b29b3e3-3fc6-4680-9607-9612c2916751")
+	)
+	(wire
+		(pts
+			(xy 106.68 107.95) (xy 111.76 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4f12d4-61c6-4825-ad26-d7adce0c589c")
 	)
 	(wire
 		(pts
@@ -5274,7 +5445,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 77.47) (xy 123.19 77.47)
+			(xy 82.55 77.47) (xy 106.68 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5311,6 +5482,26 @@
 			(type default)
 		)
 		(uuid "a0ddc4b9-111a-4fc9-9f73-c91644b88de1")
+	)
+	(wire
+		(pts
+			(xy 106.68 106.68) (xy 106.68 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a107428c-575c-48ed-862b-319579fd79b7")
+	)
+	(wire
+		(pts
+			(xy 176.53 95.25) (xy 176.53 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1174b9a-b73c-4db8-9ba3-7f34d34190bf")
 	)
 	(bus
 		(pts
@@ -5374,7 +5565,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 52.07) (xy 123.19 52.07)
+			(xy 62.23 52.07) (xy 111.76 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5384,7 +5575,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 80.01) (xy 123.19 80.01)
+			(xy 59.69 80.01) (xy 101.6 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5534,6 +5725,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 99.06) (xy 101.6 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1905375-d3e9-4c19-83f2-ad253ef0b955")
+	)
+	(wire
+		(pts
 			(xy 143.51 114.3) (xy 144.78 114.3)
 		)
 		(stroke
@@ -5574,6 +5775,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 80.01) (xy 123.19 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca149986-01f7-44ff-8726-2bb8219f8fd6")
+	)
+	(wire
+		(pts
 			(xy 144.78 29.21) (xy 153.67 29.21)
 		)
 		(stroke
@@ -5611,6 +5822,16 @@
 			(type default)
 		)
 		(uuid "cae0f64c-8e20-4fe8-b887-4a42a5255025")
+	)
+	(wire
+		(pts
+			(xy 106.68 107.95) (xy 101.6 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2b73d4-da29-43c8-ace2-953d2b51ba02")
 	)
 	(wire
 		(pts
@@ -5754,16 +5975,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 39.37) (xy 118.11 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd922959-6b29-4780-9c28-3b659b9db10a")
-	)
-	(wire
-		(pts
 			(xy 200.66 67.31) (xy 200.66 62.23)
 		)
 		(stroke
@@ -5791,16 +6002,6 @@
 			(type default)
 		)
 		(uuid "e10963ad-8740-4850-9624-807ad0cc7d45")
-	)
-	(wire
-		(pts
-			(xy 107.95 30.48) (xy 113.03 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4477543-a5d8-4c32-a0ba-5cfb29f08268")
 	)
 	(wire
 		(pts
@@ -5904,6 +6105,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 52.07) (xy 111.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee363f04-d499-43da-930c-da192e8934c6")
+	)
+	(wire
+		(pts
 			(xy 144.78 45.72) (xy 146.05 45.72)
 		)
 		(stroke
@@ -5921,16 +6132,6 @@
 			(type default)
 		)
 		(uuid "f17c5952-7444-4a04-8fc7-501b2d9610cd")
-	)
-	(wire
-		(pts
-			(xy 113.03 30.48) (xy 118.11 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4bcfef5-1d2a-481d-ab41-f577e84a167c")
 	)
 	(wire
 		(pts
@@ -6291,8 +6492,26 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C32949"
+		(property "LCSC Part #" ""
 			(at 220.98 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 220.98 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 220.98 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,6 +6529,72 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
 					(reference "C117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 106.68 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0aa7b546-a40d-4994-be5f-7057d1462737")
+		(property "Reference" "#PWR0170"
+			(at 106.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71903268-849e-4bf1-a6a4-032b0cca550d")
+		)
+		(instances
+			(project ""
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -6433,7 +6718,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C25105"
+			(at 116.84 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 116.84 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 116.84 59.69 90)
 			(effects
 				(font
@@ -6520,6 +6823,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 185.42 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 185.42 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "758d5b99-ac66-455c-bddb-54927addae8d")
 		)
@@ -6596,6 +6917,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 76.2 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 76.2 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb24802f-d857-4152-bace-e4eba5061c82")
 		)
@@ -6606,6 +6945,72 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
 					(reference "C122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm0:+3V3_WIFI")
+		(at 144.78 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18caecf3-fc36-419a-9029-cdc62a4cca0a")
+		(property "Reference" "#PWR0138"
+			(at 144.78 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_WIFI"
+			(at 144.78 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_WIFI\""
+			(at 144.78 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4390b074-1882-42ef-bde1-bbb7bf472b7f")
+		)
+		(instances
+			(project ""
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -6664,6 +7069,24 @@
 			)
 		)
 		(property "LCSC Part #" "C25779"
+			(at 87.63 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 87.63 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 87.63 35.56 90)
 			(effects
 				(font
@@ -6748,6 +7171,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 82.55 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 82.55 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "74ebff2d-ba7a-4de6-a0f4-ef1838a15648")
 		)
@@ -6764,17 +7205,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 77.47 29.21 0)
+		(lib_id "Device:R")
+		(at 176.53 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fbafa49-8cd2-4201-a5eb-d853b3ae22e6")
-		(property "Reference" "#PWR0139"
-			(at 77.47 33.02 0)
+		(uuid "2250a595-b8ef-4bc0-8c1a-eff6e9cb41e6")
+		(property "Reference" "R51"
+			(at 176.53 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 178.816 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 174.752 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,16 +7238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 77.47 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 29.21 0)
+		(property "Datasheet" "~"
+			(at 176.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6799,8 +7247,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 77.47 29.21 0)
+		(property "Description" "Resistor"
+			(at 176.53 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6808,8 +7256,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 29.21 0)
+		(property "LCSC Part #" "C25744"
+			(at 176.53 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 176.53 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 176.53 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6818,12 +7284,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "70513d48-bbfb-4270-9f19-0c0ce2f7a1ff")
+			(uuid "5b95c606-45a8-4ddc-9fb8-2f53c362b65d")
+		)
+		(pin "2"
+			(uuid "2d3d657c-e5b3-4cc9-96b0-b3392dd6634d")
 		)
 		(instances
-			(project ""
+			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
-					(reference "#PWR0139")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -6948,6 +7417,24 @@
 			)
 		)
 		(property "LCSC Part #" "C25779"
+			(at 102.87 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 102.87 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 102.87 35.56 90)
 			(effects
 				(font
@@ -7101,6 +7588,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 137.16 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 137.16 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd55d7ee-e589-47ca-adad-99a1ea174dae")
 		)
@@ -7244,6 +7749,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "180"
+			(at 104.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "fea07cfb-8b43-49e4-a5cb-83769a4ce6eb")
 		)
@@ -7345,6 +7868,24 @@
 			)
 		)
 		(property "LCSC Part #" "C25779"
+			(at 107.95 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 107.95 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 107.95 35.56 90)
 			(effects
 				(font
@@ -7489,8 +8030,26 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C32949"
+		(property "LCSC Part #" ""
 			(at 205.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 205.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 205.74 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7508,6 +8067,194 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
 					(reference "C116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ad82ad7-d01c-4437-8269-2cbccc220f51")
+		(property "Reference" "R69"
+			(at 106.68 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 108.966 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 104.902 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25741"
+			(at 106.68 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 106.68 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 106.68 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ed31f6f-f1d9-4316-94ef-1969d0ad4235")
+		)
+		(pin "2"
+			(uuid "81968d25-6864-4ae7-b22e-dc6af23e5ab6")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5430f8ca-aedc-4d30-8b7b-cc11e07dbad0")
+		(property "Reference" "R70"
+			(at 101.6 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 103.886 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.822 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25741"
+			(at 101.6 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 101.6 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 101.6 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "216dd327-1875-4b18-960f-b79d96d59dcb")
+		)
+		(pin "2"
+			(uuid "6145cd99-e164-4357-8115-f1830c46f349")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -7566,6 +8313,24 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
+			(at 76.2 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 76.2 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 76.2 154.94 90)
 			(effects
 				(font
@@ -7653,6 +8418,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 222.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 222.25 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8ee1dc13-2a6e-4c77-ae12-3da23b2a13f4")
 		)
@@ -7663,72 +8446,6 @@
 			(project ""
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
 					(reference "AE1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 144.78 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5fe4d705-0af8-489a-9059-c102be6ce309")
-		(property "Reference" "#PWR0138"
-			(at 144.78 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 144.78 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 144.78 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c2187fcf-778d-4fd6-a389-36725796904b")
-		)
-		(instances
-			(project ""
-				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
-					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -7800,6 +8517,72 @@
 		)
 	)
 	(symbol
+		(lib_id "cm0:+3V3_WIFI")
+		(at 176.53 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64ba12b3-f976-45a0-b8c1-f825890e4919")
+		(property "Reference" "#PWR011"
+			(at 176.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_WIFI"
+			(at 176.53 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_WIFI\""
+			(at 176.53 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da2467b7-bdde-4f19-abd1-1e175d47ccec")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 200.66 73.66 0)
 		(unit 1)
@@ -7862,6 +8645,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 200.66 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96c07a24-ef14-422b-aafc-df53f9f1186e")
 		)
@@ -7872,6 +8673,72 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
 					(reference "C118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cm0:+3V3_WIFI")
+		(at 77.47 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ef61b1d-df51-4a7d-8d5b-632ddb652af1")
+		(property "Reference" "#PWR0139"
+			(at 77.47 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_WIFI"
+			(at 77.47 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_WIFI\""
+			(at 77.47 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20f24ffd-5afb-4a5e-88a8-504d2106f66a")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -7933,6 +8800,24 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
+			(at 77.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 77.47 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 77.47 35.56 0)
 			(effects
 				(font
@@ -8012,6 +8897,24 @@
 			)
 		)
 		(property "LCSC Part #" "C32949"
+			(at 185.42 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 185.42 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 185.42 85.09 90)
 			(effects
 				(font
@@ -8157,6 +9060,24 @@
 			)
 		)
 		(property "LCSC Part #" "C2798300"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 144.78 80.01 0)
 			(effects
 				(font
@@ -8317,7 +9238,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 35.56 0)
+		(at 111.76 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8325,7 +9246,7 @@
 		(dnp no)
 		(uuid "8b981ed1-d57f-482f-912a-8b0cfaf460b2")
 		(property "Reference" "R52"
-			(at 118.11 35.56 90)
+			(at 111.76 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8333,7 +9254,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 120.396 35.56 90)
+			(at 114.046 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8341,7 +9262,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 116.332 35.56 90)
+			(at 109.982 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8350,7 +9271,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 35.56 0)
+			(at 111.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +9280,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 35.56 0)
+			(at 111.76 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8368,7 +9289,25 @@
 			)
 		)
 		(property "LCSC Part #" "C25741"
-			(at 118.11 35.56 90)
+			(at 111.76 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 111.76 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 111.76 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8409,7 +9348,7 @@
 				)
 			)
 		)
-		(property "Value" "4.7uH"
+		(property "Value" "2.2uH"
 			(at 175.26 59.69 90)
 			(effects
 				(font
@@ -8417,7 +9356,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Sunlord_SWPA3015S"
 			(at 175.26 62.23 0)
 			(effects
 				(font
@@ -8444,7 +9383,25 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C19734"
+			(at 175.26 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 175.26 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 175.26 62.23 90)
 			(effects
 				(font
@@ -8521,6 +9478,24 @@
 			)
 		)
 		(property "LCSC Part #" "C7294683"
+			(at 175.26 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 175.26 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 175.26 80.01 90)
 			(effects
 				(font
@@ -8744,6 +9719,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 165.1 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8969632b-efed-4e07-8629-6827a5232d0e")
 		)
@@ -8754,82 +9747,6 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
 					(reference "C113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 113.03 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a050377d-58fd-4bd9-aad3-8e0140c01bc0")
-		(property "Reference" "R51"
-			(at 113.03 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100k"
-			(at 115.316 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 111.252 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C25741"
-			(at 113.03 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d752d624-f120-4683-bb72-7b27c78d29cd")
-		)
-		(pin "2"
-			(uuid "a336d502-30a7-4f7e-96c8-d7d3236ae6a9")
-		)
-		(instances
-			(project "cm0"
-				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/70db3a50-a0a5-4d0a-8f2e-7c03c0a0ef9b"
-					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -9028,6 +9945,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 92.71 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 92.71 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8d1e9b8-48dd-4e76-97f3-e7dca25a2cd0")
 		)
@@ -9105,6 +10040,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 130.81 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 130.81 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a9004d4f-6d6e-4b8b-a0cc-e7290bc57049")
 		)
@@ -9174,6 +10127,24 @@
 			)
 		)
 		(property "LCSC Part #" "C32949"
+			(at 176.53 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 176.53 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 176.53 52.07 90)
 			(effects
 				(font
@@ -9324,6 +10295,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 130.81 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 130.81 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6a8a0b85-766c-4bf9-80f8-2172b7b06aad")
 		)
@@ -9392,6 +10381,24 @@
 			)
 		)
 		(property "LCSC Part #" "C25779"
+			(at 97.79 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 97.79 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 97.79 35.56 90)
 			(effects
 				(font
@@ -9543,6 +10550,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 153.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 153.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20fcf848-2f68-42cf-abc3-c96f8ad5a6a9")
 		)
@@ -9678,6 +10703,24 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
+			(at 144.78 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 144.78 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 144.78 171.45 0)
 			(effects
 				(font

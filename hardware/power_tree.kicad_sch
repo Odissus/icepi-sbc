@@ -35,7 +35,7 @@
 		)
 		(uuid "5376974c-43ce-422c-b273-0aa67b400afb")
 	)
-	(text "3.3V/2A"
+	(text "3.3V/1A"
 		(exclude_from_sim no)
 		(at 142.494 105.156 0)
 		(effects
@@ -70,7 +70,7 @@
 	)
 	(text "H3 Debugging Guide"
 		(exclude_from_sim no)
-		(at 48.006 16.764 0)
+		(at 24.892 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -79,7 +79,7 @@
 		)
 		(uuid "ca01954f-b11e-4954-8127-8719c14a22ba")
 	)
-	(text "3.3V/2A"
+	(text "3.3V/0.5A"
 		(exclude_from_sim no)
 		(at 142.494 117.856 0)
 		(effects
@@ -130,7 +130,7 @@
 		)
 		(uuid "27d98619-7157-4f5d-ac21-049722d34b19")
 	)
-	(text_box "SY8089A"
+	(text_box "SY8088"
 		(exclude_from_sim no)
 		(at 127 101.6 0)
 		(size 15.24 7.62)
@@ -153,7 +153,7 @@
 	(text_box "VCC-IO      3.3v\nAVCC        3.3v\nVCC-RTC     3.3v\nVCC3V-PLL   3.3v\nVCC3V-TV    3.3v\nVCC-DRAM    1.5v\nVDD-CPUX    1.3v\nVDD1V1-EPHY 1.2v\nVDD1V2-SYS  1.2v"
 		(exclude_from_sim no)
 		(at 15.24 15.24 0)
-		(size 20.32 20.32)
+		(size 29.21 20.32)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -211,7 +211,7 @@
 		)
 		(uuid "4f80669f-c6c9-4df4-9798-6496c7389ad6")
 	)
-	(text_box "SY8089A"
+	(text_box "SY8088"
 		(exclude_from_sim no)
 		(at 127 114.3 0)
 		(size 15.24 7.62)
@@ -331,10 +331,10 @@
 		)
 		(uuid "b507091f-a092-4bee-9ddc-2d0d8838fc67")
 	)
-	(text_box "SY8088      1A\nSY8089A     2A\nSY8113B     3A"
+	(text_box "SY8088      1A   1.5MHz\nSY8089A     2A     1MHz\nSY8113B     3A   0.5MHz"
 		(exclude_from_sim no)
 		(at 15.24 40.64 0)
-		(size 20.574 7.62)
+		(size 29.21 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

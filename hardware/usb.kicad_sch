@@ -5113,6 +5113,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 238.76 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 238.76 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48827b29-b222-473f-bc63-df4eccef5891")
 		)
@@ -5182,6 +5200,24 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 106.68 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 106.68 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 106.68 96.52 90)
 			(effects
 				(font
@@ -5333,6 +5369,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 63.5 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 63.5 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f221321-72d1-482b-8ea1-8d1842669e32")
 		)
@@ -5402,6 +5456,24 @@
 			)
 		)
 		(property "LCSC Part #" "C5182099"
+			(at 180.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 180.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 180.34 135.89 0)
 			(effects
 				(font
@@ -5556,6 +5628,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 243.84 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 243.84 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b22cef3d-357b-485f-a61e-b3a04012fcc6")
 		)
@@ -5625,6 +5715,24 @@
 			)
 		)
 		(property "LCSC Part #" "C5182099"
+			(at 228.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 228.6 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 228.6 135.89 0)
 			(effects
 				(font
@@ -5706,6 +5814,24 @@
 			)
 		)
 		(property "LCSC Part #" "C55136"
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 116.84 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 116.84 30.48 0)
 			(effects
 				(font
@@ -5801,6 +5927,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 271.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 271.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df814f6f-d48d-46ff-86ff-39537caeedac")
 		)
@@ -5870,6 +6014,24 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 243.84 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 243.84 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 243.84 69.85 90)
 			(effects
 				(font
@@ -6087,6 +6249,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
+			(at 180.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d46bc6bb-fb39-4822-afdb-0500cc1ac50d")
 		)
@@ -6235,6 +6415,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 133.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 133.35 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6fe50e5-814d-40d1-9237-45220aff7628")
 		)
@@ -6306,6 +6504,24 @@
 			)
 		)
 		(property "LCSC Part #" "C52923"
+			(at 69.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 69.85 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 69.85 135.89 0)
 			(effects
 				(font
@@ -6393,6 +6609,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 100.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 100.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "644d3d06-02ca-484a-a51b-16662c0e1c33")
 		)
@@ -6462,6 +6696,24 @@
 			)
 		)
 		(property "LCSC Part #" "C165948"
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,12.7"
+			(at 43.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 43.18 101.6 0)
 			(effects
 				(font
@@ -6654,6 +6906,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 238.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53b8c4fa-2805-487f-b333-4275a2c76c48")
 		)
@@ -6723,6 +6993,24 @@
 			)
 		)
 		(property "LCSC Part #" "C25744"
+			(at 105.41 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 105.41 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 105.41 36.83 90)
 			(effects
 				(font
@@ -7007,6 +7295,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 255.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
+			(at 255.27 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd3676bb-3d56-4738-970f-7d14b039d26b")
 		)
@@ -7228,6 +7534,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 101.6 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ceccec83-3e6e-4bf8-a56d-065730588db9")
 		)
@@ -7298,6 +7622,24 @@
 			)
 		)
 		(property "LCSC Part #" "C456021"
+			(at 176.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 176.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -7396,6 +7738,24 @@
 			)
 		)
 		(property "LCSC Part #" "C5182099"
+			(at 228.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 228.6 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 228.6 104.14 0)
 			(effects
 				(font
@@ -7552,6 +7912,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 90.17 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4be0fcb5-27cc-4951-ae23-a54694380168")
 		)
@@ -7620,6 +7998,24 @@
 			)
 		)
 		(property "LCSC Part #" "C25796"
+			(at 63.5 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 63.5 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 63.5 93.98 90)
 			(effects
 				(font
@@ -7772,6 +8168,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 227.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 227.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86a4f254-c96d-4ddb-8616-88a3b6f2f640")
 		)
@@ -7916,6 +8330,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 271.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 271.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0ad5bab-5b62-4788-9a05-ab352c187388")
 		)
@@ -7985,6 +8417,24 @@
 			)
 		)
 		(property "LCSC Part #" "C22373734"
+			(at 85.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 85.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 85.09 158.75 0)
 			(effects
 				(font
@@ -8078,6 +8528,24 @@
 			)
 		)
 		(property "LCSC Part #" "C55136"
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 118.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 118.11 90.17 0)
 			(effects
 				(font
@@ -8239,6 +8707,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 88.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 88.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aecb89f9-8f1c-418e-8857-7f937040cf24")
 		)
@@ -8308,6 +8794,24 @@
 			)
 		)
 		(property "LCSC Part #" "C165948"
+			(at 43.18 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,12.7"
+			(at 43.18 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 43.18 41.91 0)
 			(effects
 				(font
@@ -8425,6 +8929,24 @@
 			)
 		)
 		(property "LCSC Part #" "C19702"
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 134.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -8577,6 +9099,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 227.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 227.33 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f09f87fd-9e3a-4dec-9623-152b94210b4b")
 		)
@@ -8647,6 +9187,24 @@
 			)
 		)
 		(property "LCSC Part #" "C55136"
+			(at 255.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 255.27 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "90"
 			(at 255.27 63.5 0)
 			(effects
 				(font
@@ -8733,6 +9291,24 @@
 			)
 		)
 		(property "LCSC Part #" "C25796"
+			(at 63.5 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 63.5 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 63.5 31.75 90)
 			(effects
 				(font
@@ -8884,6 +9460,24 @@
 				(hide yes)
 			)
 		)
+		(property "FT Position Offset" ""
+			(at 63.5 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
+			(at 63.5 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5db72cd5-3e5b-47af-8d09-b9a91d8e7005")
 		)
@@ -8953,6 +9547,24 @@
 			)
 		)
 		(property "LCSC Part #" "C165948"
+			(at 41.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" "0,12.7"
+			(at 41.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" ""
 			(at 41.91 163.83 0)
 			(effects
 				(font
@@ -9069,6 +9681,24 @@
 			)
 		)
 		(property "LCSC Part #" "C5182099"
+			(at 137.16 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Position Offset" ""
+			(at 137.16 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 137.16 175.26 0)
 			(effects
 				(font

@@ -1851,7 +1851,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
+		(symbol "cm0:+3V3_IO"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -1872,7 +1872,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "+3V3_IO"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -1898,7 +1898,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"+3V3_IO\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1916,7 +1916,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "+3V3_IO_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1954,7 +1954,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "+3V3_IO_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -2512,6 +2512,72 @@
 		)
 	)
 	(symbol
+		(lib_id "cm0:+3V3_IO")
+		(at 177.8 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61a60d56-0d2c-4f1f-aabe-ed968e7dd1c7")
+		(property "Reference" "#PWR0154"
+			(at 177.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_IO"
+			(at 177.8 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_IO\""
+			(at 177.8 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "682c7f66-2697-498f-a384-115e16d9d92f")
+		)
+		(instances
+			(project ""
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/452e4208-fdd2-4279-8880-491fefaabe1c"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSN20")
 		(at 186.69 99.06 270)
 		(unit 1)
@@ -2672,72 +2738,6 @@
 			(project ""
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/452e4208-fdd2-4279-8880-491fefaabe1c"
 					(reference "#PWR0155")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 177.8 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8d439aca-f17a-49e4-bf44-ef0be16544d9")
-		(property "Reference" "#PWR0154"
-			(at 177.8 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 177.8 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 177.8 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87521890-b004-4560-957f-e809da52910b")
-		)
-		(instances
-			(project ""
-				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/452e4208-fdd2-4279-8880-491fefaabe1c"
-					(reference "#PWR0154")
 					(unit 1)
 				)
 			)

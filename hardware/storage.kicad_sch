@@ -641,6 +641,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "cm0:+3V3_IO"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3_IO"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3_IO\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_IO_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_IO_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "cm0:EMMC5.1_BGA153"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5223,6 +5348,72 @@
 		(uuid "753c7ecc-2d40-4462-98d7-bbf8f08699e5")
 	)
 	(symbol
+		(lib_id "cm0:+3V3_IO")
+		(at 85.09 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0115e4b5-9448-4dc2-bd0e-0cba5f060100")
+		(property "Reference" "#PWR0131"
+			(at 85.09 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_IO"
+			(at 85.09 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_IO\""
+			(at 85.09 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63986a8d-23c2-4686-81cd-7dada1d49619")
+		)
+		(instances
+			(project "cm0"
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/bbbf0a3c-34ab-4b2d-85d9-faf7e9a88445"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 101.6 74.93 0)
 		(unit 1)
@@ -6053,17 +6244,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 85.09 68.58 0)
+		(lib_id "cm0:+3V3_IO")
+		(at 96.52 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7a3284fd-d660-4438-a92b-b3a0d5afa65a")
-		(property "Reference" "#PWR0131"
-			(at 85.09 72.39 0)
+		(uuid "734e6098-068d-4098-80f0-39e4923ba180")
+		(property "Reference" "#PWR0129"
+			(at 96.52 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,8 +6262,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 85.09 63.5 0)
+		(property "Value" "+3V3_IO"
+			(at 96.52 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6271,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 68.58 0)
+			(at 96.52 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6089,7 +6280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 68.58 0)
+			(at 96.52 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,8 +6288,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 85.09 68.58 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3_IO\""
+			(at 96.52 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,12 +6298,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "910e9722-bf6d-4ed7-9d09-cda1cd32ec45")
+			(uuid "089dc9b9-8070-4883-8f6b-781ec4332c89")
 		)
 		(instances
 			(project ""
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/bbbf0a3c-34ab-4b2d-85d9-faf7e9a88445"
-					(reference "#PWR0131")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -6207,72 +6398,6 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/bbbf0a3c-34ab-4b2d-85d9-faf7e9a88445"
 					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 96.52 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "889075ff-2544-428a-b373-94a1509ae18f")
-		(property "Reference" "#PWR0129"
-			(at 96.52 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 96.52 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 96.52 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d0a2f84-9016-41ed-855c-7975b40425e9")
-		)
-		(instances
-			(project "cm0"
-				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/bbbf0a3c-34ab-4b2d-85d9-faf7e9a88445"
-					(reference "#PWR0129")
 					(unit 1)
 				)
 			)

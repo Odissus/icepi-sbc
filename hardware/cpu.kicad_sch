@@ -22313,7 +22313,7 @@
 		)
 	)
 	(bus_alias "AUDIO"
-		(members "AUDIO_R" "AUDIO_L")
+		(members "AUDIO_R" "AUDIO_L" "TV_OUT")
 	)
 	(bus_alias "EPHY"
 		(members "EPHY_RX+" "EPHY_RX-" "EPHY_TX+" "EPHY_TX-" "EPHY_LINK_LED" "EPHY_SPD_LED")

@@ -12,7 +12,7 @@ A low-cost carrier board for the H3 CPU. It let's you have a cheap yet powerful 
 - 512MiB of DDR3 RAM
 - Ethernet PHY
 - WiFi & Bluetooth
-- GPDI
+- GPDI video out
 - Raspberry-pi compatiable GPIO
 - USB connectors:
     - 2x USB-A 

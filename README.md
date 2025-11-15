@@ -24,5 +24,14 @@ A low-cost carrier board for the H3 CPU. It let's you have a cheap yet powerful 
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/5bfb6cf203ce97719ff51d2524fe1a7d0fdad4ac_pcb.png)
 
-More info coming soon!
+## Open source
+This project is licensed under the [Solderpad](/LICENSE) hardware license, granting the maximum amount of liberty :)
+
+It will be submitted to OSHWA for review once my prototypes come back
+
+## Contact
+
+Any questions? Dm `@Cyao.` on Discord (Send a friend request or join the KiCAD Discord server) or send an email to `cyao _at_ duck.com`!
+
+More info coming soon...
 

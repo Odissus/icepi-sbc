@@ -2334,12 +2334,6 @@
 		)
 	)
 	(junction
-		(at 152.4 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0235a8c6-43f1-46b1-b415-1e4dfda30e10")
-	)
-	(junction
 		(at 137.16 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2494,6 +2488,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4a27405-4115-4c30-b9d0-474e64b8f7ca")
+	)
+	(junction
+		(at 152.4 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c7f5b3b6-88ae-43d2-b8c5-40d485d29afc")
 	)
 	(junction
 		(at 152.4 97.79)
@@ -3015,16 +3015,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 120.65) (xy 157.48 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55a5bb54-8c46-413e-b3e1-8b4225c5edcc")
-	)
-	(wire
-		(pts
 			(xy 167.64 73.66) (xy 167.64 74.93)
 		)
 		(stroke
@@ -3032,6 +3022,16 @@
 			(type default)
 		)
 		(uuid "56585760-a0b0-48cc-87aa-674063e01c1e")
+	)
+	(wire
+		(pts
+			(xy 152.4 120.65) (xy 157.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e858e7a-ded8-4707-b9ec-bf90a448dbaf")
 	)
 	(wire
 		(pts
@@ -3762,16 +3762,6 @@
 			(justify right bottom)
 		)
 		(uuid "74798fac-bf27-42e9-9531-d738084b296c")
-	)
-	(label "GPDI_CEC"
-		(at 127 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9722e54c-ad62-4cc7-9286-f52d7f46ca34")
 	)
 	(label "GPDI_D1+"
 		(at 114.3 97.79 0)

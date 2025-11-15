@@ -157,6 +157,16 @@
 	)
 	(bus
 		(pts
+			(xy 148.59 123.19) (xy 148.59 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cebfbe2f-95d3-4489-98f9-ead73ae3178f")
+	)
+	(bus
+		(pts
 			(xy 123.19 123.19) (xy 123.19 130.81)
 		)
 		(stroke
@@ -304,6 +314,16 @@
 		(pin "{CPU_UART}" bidirectional
 			(at 151.13 130.81 90)
 			(uuid "b47a4fac-2ddd-449c-8015-1a221d1effbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{STATUS}" output
+			(at 148.59 130.81 90)
+			(uuid "56a2b0e2-ad93-4872-aabc-709892df368c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,6 +873,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{STATUS}" output
+			(at 148.59 123.19 270)
+			(uuid "13a82e83-1ebc-467d-bff1-4fdf05346412")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

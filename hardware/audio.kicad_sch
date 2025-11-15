@@ -632,15 +632,6 @@
 		)
 	)
 	(bus_entry
-		(at 189.23 87.63)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10d582b1-81af-4b1b-b5fd-7671a0ff22db")
-	)
-	(bus_entry
 		(at 189.23 92.71)
 		(size 2.54 -2.54)
 		(stroke
@@ -678,16 +669,6 @@
 		)
 		(uuid "5c6a00ee-0523-4049-be0d-edb2943b5261")
 	)
-	(bus
-		(pts
-			(xy 191.77 90.17) (xy 191.77 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64d4bde0-d8a8-4298-9e64-5dc3b9136cf5")
-	)
 	(wire
 		(pts
 			(xy 149.86 92.71) (xy 165.1 92.71)
@@ -700,16 +681,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 87.63) (xy 189.23 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82850dad-ee2f-4db9-af56-2bac9706b195")
-	)
-	(wire
-		(pts
 			(xy 134.62 97.79) (xy 134.62 90.17)
 		)
 		(stroke
@@ -717,16 +688,6 @@
 			(type default)
 		)
 		(uuid "82df754c-429c-4fca-8573-d7584f18b689")
-	)
-	(bus
-		(pts
-			(xy 191.77 85.09) (xy 191.77 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a9f2c1-4d06-46dc-beb5-63a09367813b")
 	)
 	(wire
 		(pts
@@ -740,7 +701,7 @@
 	)
 	(bus
 		(pts
-			(xy 191.77 82.55) (xy 194.31 82.55)
+			(xy 191.77 90.17) (xy 194.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -788,16 +749,6 @@
 		)
 		(uuid "e9a78b66-8e12-4533-b911-e2c80fe38510")
 	)
-	(label "TV_OUT"
-		(at 186.69 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "01c9b50b-edf2-44cb-9417-f5e1d63af7b4")
-	)
 	(label "AUDIO_L"
 		(at 186.69 95.25 180)
 		(effects
@@ -820,7 +771,7 @@
 	)
 	(hierarchical_label "{AUDIO}"
 		(shape bidirectional)
-		(at 194.31 82.55 0)
+		(at 194.31 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)

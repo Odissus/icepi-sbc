@@ -1,8 +1,6 @@
-# Icepi CM0
+# Icepi SBC
 
-A low-cost carrier board for the H3 CPU. It let's you have a cheap yet powerful Linux/Android device on your hand.
-
-The PCB is 4 layers ensuring minimal cost and overhead during production.
+A low-cost single-board computer for the H3 CPU: A cheap yet powerful Linux device on your hand.
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/65acf57737127a090191e2a362e5340783381ce1_image.png)
 
@@ -26,6 +24,8 @@ The PCB is 4 layers ensuring minimal cost and overhead during production.
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/5bfb6cf203ce97719ff51d2524fe1a7d0fdad4ac_pcb.png)
 
+The PCB is only 4 layered, ensuring minimal cost and overhead during production. But for mass production 6 layers is recommended, putting solid ground on In.1 and In.4, then copy the power plane to In.2 and In.3. (Impedance matching might be required depending on stackup)
+
 ## Open source
 This project is licensed under the [Solderpad](/LICENSE) hardware license, granting the maximum amount of liberty :)
 
@@ -36,4 +36,8 @@ It will be submitted to OSHWA for review once my prototypes come back
 Any questions? Dm `@Cyao.` on Discord (Send a friend request or join the KiCAD Discord server) or send an email to `cyao _at_ duck.com`!
 
 More info coming soon...
+    
+| Interested? [Keep me up to date!]() | Check out my other [Icepi Zero](https://github.com/cheyao/icepi-zero) project |
+| ----------------------------------- | ----------------------------------------- |
 
+If there's a lot of people interested, there's a chance that I'll sell this at a relatively low price :)

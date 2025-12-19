@@ -14,6 +14,16 @@
 		(comment 3 "License: Solderpad")
 	)
 	(lib_symbols)
+	(text "Choose based on current to optimize inductor values"
+		(exclude_from_sim no)
+		(at 134.62 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22c0fbe3-c7e7-4233-902f-8b9fca109fc3")
+	)
 	(text "1.2V/2A"
 		(exclude_from_sim no)
 		(at 142.494 67.056 0)

@@ -3282,6 +3282,16 @@
 		)
 		(uuid "1fc680ff-cb17-4436-85b0-e1167baae880")
 	)
+	(wire
+		(pts
+			(xy 163.83 134.62) (xy 171.45 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d870d7-1658-4059-85e5-c21cdc20f940")
+	)
 	(bus
 		(pts
 			(xy 123.19 124.46) (xy 123.19 121.92)
@@ -4931,6 +4941,16 @@
 			(type default)
 		)
 		(uuid "ecbce902-8af4-4aa2-beed-ccd070cb4606")
+	)
+	(wire
+		(pts
+			(xy 179.07 134.62) (xy 185.42 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7410b1-3c9e-4b6f-babe-6340d20e3af4")
 	)
 	(wire
 		(pts
@@ -11215,6 +11235,16 @@
 		)
 		(uuid "591168f4-dac8-4b0c-a2a2-e67d016c0934")
 	)
+	(label "CLK-"
+		(at 185.42 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d3361ce-49cb-408c-b07d-8f1737180bdf")
+	)
 	(label "DQS1-"
 		(at 120.65 129.54 180)
 		(effects
@@ -11414,6 +11444,16 @@
 			(justify left bottom)
 		)
 		(uuid "c06b32cc-420a-401b-89fb-68459936d9ba")
+	)
+	(label "CLK+"
+		(at 163.83 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce3fef61-dd71-4433-ba15-be0d36475b7e")
 	)
 	(label "DQ6"
 		(at 119.38 86.36 180)
@@ -14276,6 +14316,74 @@
 			(project "cm0"
 				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/32a4bb18-2695-4537-bbd4-f872ec13cb53"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 175.26 134.62 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac2b8394-6bb7-4bc0-b619-2b00c6c1365e")
+		(property "Reference" "R75"
+			(at 175.26 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 175.26 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 175.26 132.842 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de89af6f-8580-48fa-bd92-00b01b4644ae")
+		)
+		(pin "2"
+			(uuid "de1ba672-3bc2-4fd1-ae07-29b07b55b4de")
+		)
+		(instances
+			(project ""
+				(path "/b53f5dbb-8078-4818-9e8f-fdf90ba6d854/32a4bb18-2695-4537-bbd4-f872ec13cb53"
+					(reference "R75")
 					(unit 1)
 				)
 			)

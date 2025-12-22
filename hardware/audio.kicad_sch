@@ -595,11 +595,11 @@
 		)
 	)
 	(no_connect
-		(at 132.08 95.25)
-		(uuid "19946004-a21e-44b8-9ee4-bac2769447d5")
+		(at 132.08 90.17)
+		(uuid "b02948d6-3b7b-427e-a6de-6e91408a89f2")
 	)
 	(bus_entry
-		(at 187.96 90.17)
+		(at 187.96 95.25)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -608,7 +608,7 @@
 		(uuid "80fa2f1f-d4f9-4a69-b685-ef8025d73fb9")
 	)
 	(bus_entry
-		(at 187.96 87.63)
+		(at 187.96 92.71)
 		(size 2.54 -2.54)
 		(stroke
 			(width 0)
@@ -618,7 +618,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 87.63) (xy 142.24 87.63)
+			(xy 132.08 92.71) (xy 142.24 92.71)
 		)
 		(stroke
 			(width 0)
@@ -628,7 +628,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 87.63) (xy 187.96 87.63)
+			(xy 161.29 92.71) (xy 187.96 92.71)
 		)
 		(stroke
 			(width 0)
@@ -638,7 +638,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 90.17) (xy 165.1 90.17)
+			(xy 149.86 95.25) (xy 165.1 95.25)
 		)
 		(stroke
 			(width 0)
@@ -648,7 +648,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 100.33) (xy 134.62 92.71)
+			(xy 134.62 87.63) (xy 134.62 97.79)
 		)
 		(stroke
 			(width 0)
@@ -658,7 +658,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 156.21 87.63)
+			(xy 149.86 92.71) (xy 156.21 92.71)
 		)
 		(stroke
 			(width 0)
@@ -668,7 +668,7 @@
 	)
 	(bus
 		(pts
-			(xy 190.5 85.09) (xy 193.04 85.09)
+			(xy 190.5 90.17) (xy 193.04 90.17)
 		)
 		(stroke
 			(width 0)
@@ -678,7 +678,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 90.17) (xy 187.96 90.17)
+			(xy 170.18 95.25) (xy 187.96 95.25)
 		)
 		(stroke
 			(width 0)
@@ -688,7 +688,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 92.71) (xy 132.08 92.71)
+			(xy 134.62 87.63) (xy 132.08 87.63)
 		)
 		(stroke
 			(width 0)
@@ -698,7 +698,7 @@
 	)
 	(bus
 		(pts
-			(xy 190.5 87.63) (xy 190.5 85.09)
+			(xy 190.5 92.71) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
@@ -708,7 +708,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 90.17) (xy 142.24 90.17)
+			(xy 132.08 95.25) (xy 142.24 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1152,7 +1152,7 @@
 		)
 	)
 	(label "AUDIO_L"
-		(at 185.42 87.63 180)
+		(at 185.42 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1162,7 +1162,7 @@
 		(uuid "4a5b5b91-fa77-4044-8d67-f9e7cfdef93a")
 	)
 	(label "AUDIO_R"
-		(at 185.42 90.17 180)
+		(at 185.42 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1173,7 +1173,7 @@
 	)
 	(hierarchical_label "{AUDIO}"
 		(shape bidirectional)
-		(at 193.04 85.09 0)
+		(at 193.04 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1184,7 +1184,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 87.63 90)
+		(at 146.05 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1192,7 +1192,7 @@
 		(dnp no)
 		(uuid "042d3faa-a00c-466d-b8a3-c44ca4a326c8")
 		(property "Reference" "R73"
-			(at 146.05 87.63 90)
+			(at 146.05 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1200,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 146.05 85.344 90)
+			(at 146.05 90.424 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,7 +1208,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 146.05 89.408 90)
+			(at 146.05 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 87.63 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1226,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 87.63 0)
+			(at 146.05 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1235,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25105"
-			(at 146.05 87.63 90)
+			(at 146.05 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1244,7 +1244,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 146.05 87.63 90)
+			(at 146.05 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1253,7 +1253,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 146.05 87.63 90)
+			(at 146.05 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1379,7 +1379,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 167.64 90.17 90)
+		(at 167.64 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1387,7 +1387,7 @@
 		(dnp no)
 		(uuid "307844eb-8195-4d80-93d8-1195552e1d63")
 		(property "Reference" "C138"
-			(at 169.418 88.9 90)
+			(at 169.418 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1396,7 +1396,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 166.116 88.9 90)
+			(at 166.116 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1405,7 +1405,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 167.64 90.17 0)
+			(at 167.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1414,7 +1414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 90.17 0)
+			(at 167.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1423,7 +1423,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 167.64 90.17 0)
+			(at 167.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,7 +1432,7 @@
 			)
 		)
 		(property "LCSC Part #" "C19702"
-			(at 167.64 90.17 0)
+			(at 167.64 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,7 +1441,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 167.64 90.17 90)
+			(at 167.64 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,7 +1450,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 167.64 90.17 90)
+			(at 167.64 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1475,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 146.05 90.17 90)
+		(at 146.05 95.25 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1484,7 +1484,7 @@
 		(dnp no)
 		(uuid "36928b15-d78b-46c0-bd1f-63259d4633d0")
 		(property "Reference" "R74"
-			(at 146.05 90.17 90)
+			(at 146.05 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1492,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 146.05 92.456 90)
+			(at 146.05 97.536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1500,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 146.05 88.392 90)
+			(at 146.05 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,7 +1509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 90.17 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1518,7 +1518,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 146.05 90.17 0)
+			(at 146.05 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1527,7 +1527,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25105"
-			(at 146.05 90.17 90)
+			(at 146.05 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1536,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 146.05 90.17 90)
+			(at 146.05 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1545,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 146.05 90.17 90)
+			(at 146.05 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1570,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 158.75 87.63 90)
+		(at 158.75 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1578,7 +1578,7 @@
 		(dnp no)
 		(uuid "6d8c85ee-6cdb-42f9-b410-dcd10a8fb2df")
 		(property "Reference" "C137"
-			(at 160.528 86.36 90)
+			(at 160.528 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1587,7 +1587,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 157.226 86.36 90)
+			(at 157.226 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1596,7 +1596,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 158.75 87.63 0)
+			(at 158.75 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1605,7 +1605,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 87.63 0)
+			(at 158.75 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1614,7 +1614,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 158.75 87.63 0)
+			(at 158.75 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1623,7 +1623,7 @@
 			)
 		)
 		(property "LCSC Part #" "C19702"
-			(at 158.75 87.63 0)
+			(at 158.75 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1632,7 +1632,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 158.75 87.63 90)
+			(at 158.75 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,7 +1641,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 158.75 87.63 90)
+			(at 158.75 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1666,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 100.33 0)
+		(at 134.62 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1675,7 +1675,7 @@
 		(fields_autoplaced yes)
 		(uuid "f250a4ed-7752-4cd7-81a7-d2da38cf9c65")
 		(property "Reference" "#PWR0190"
-			(at 134.62 106.68 0)
+			(at 134.62 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1684,7 +1684,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 105.41 0)
+			(at 134.62 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 100.33 0)
+			(at 134.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1701,7 +1701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 100.33 0)
+			(at 134.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1710,7 +1710,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 100.33 0)
+			(at 134.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

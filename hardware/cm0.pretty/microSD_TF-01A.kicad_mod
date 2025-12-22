@@ -447,7 +447,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/cm0.pretty/TF-SMD_TF-02.step"
 		(offset
-			(xyz 0 -1.6 2)
+			(xyz -0.3 -1.75 2)
 		)
 		(scale
 			(xyz 1 1 1)

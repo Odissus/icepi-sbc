@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "cm0")(type "KiCad")(uri "${KIPRJMOD}/cm0.pretty")(options "")(descr ""))
+  (lib (name "oshwa")(type "KiCad")(uri "${KIPRJMOD}/certification-mark/eda/kicad/OSHW_Certification_Mark.pretty")(options "")(descr ""))
 )

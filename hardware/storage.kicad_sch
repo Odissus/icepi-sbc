@@ -5,12 +5,12 @@
 	(uuid "80e7bdad-6eeb-4f3b-8e5a-6905511534c2")
 	(paper "A4")
 	(title_block
-		(title "Icepi CM0")
-		(date "2025-11-21")
+		(title "Icepi SBC")
+		(date "2025-12-21")
 		(rev "v1.0")
 		(company "Icy Electronics")
 		(comment 1 "Chengyin Yao (cheyao)")
-		(comment 2 "https://github.com/cheyao/icepi-cm0")
+		(comment 2 "https://github.com/cheyao/icepi-sbc")
 		(comment 3 "License: Solderpad")
 	)
 	(lib_symbols
@@ -3858,6 +3858,16 @@
 		)
 		(uuid "6f1ca43c-9d5b-4d0a-863b-bf0d6d1be889")
 	)
+	(text "Nominally 47k pull-up\nReplaced with 56k\nFor BOM optimization"
+		(exclude_from_sim no)
+		(at 82.55 64.008 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86a72424-8670-4f75-a67c-612878b7119a")
+	)
 	(text "VCCQ"
 		(exclude_from_sim no)
 		(at 224.79 86.106 0)
@@ -3868,12 +3878,6 @@
 			(justify left)
 		)
 		(uuid "872c4aa0-d588-486e-9c1b-698b5ef2d4cc")
-	)
-	(junction
-		(at 87.63 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0af2819d-4a81-44ca-ade5-130b17ee1ef6")
 	)
 	(junction
 		(at 251.46 91.44)
@@ -3912,6 +3916,12 @@
 		(uuid "3365ac31-3dc1-4185-8de6-b9557937abf1")
 	)
 	(junction
+		(at 80.01 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33fe37aa-d3d7-4f66-a7cd-09bf8aa88b43")
+	)
+	(junction
 		(at 212.09 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3942,7 +3952,7 @@
 		(uuid "721f7bce-41b1-436f-9e1f-2c390e234699")
 	)
 	(junction
-		(at 85.09 69.85)
+		(at 82.55 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ff6420d-aeee-410d-b15e-921b17eaff1c")
@@ -3952,12 +3962,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d4fd291-db6c-4bb1-8a22-6135b023136b")
-	)
-	(junction
-		(at 82.55 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a19a76f5-a930-4e8b-b79d-763beded8fde")
 	)
 	(junction
 		(at 271.78 101.6)
@@ -3988,6 +3992,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d18f1123-f1d9-4dd0-b4e4-61b553ad1793")
+	)
+	(junction
+		(at 85.09 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5717a1c-9939-41b7-a28c-a8bfb730943e")
 	)
 	(junction
 		(at 271.78 91.44)
@@ -4367,7 +4377,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 68.58) (xy 85.09 69.85)
+			(xy 82.55 73.66) (xy 82.55 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4457,16 +4467,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 111.76) (xy 97.79 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3515bb8f-ee07-461b-af50-59fac2045933")
-	)
-	(wire
-		(pts
 			(xy 67.31 106.68) (xy 97.79 106.68)
 		)
 		(stroke
@@ -4474,16 +4474,6 @@
 			(type default)
 		)
 		(uuid "36c4b9ea-4351-4c53-83fa-0249e2aa603d")
-	)
-	(wire
-		(pts
-			(xy 82.55 93.98) (xy 97.79 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38309099-46e2-4f89-93f7-4facb12f136f")
 	)
 	(bus
 		(pts
@@ -4557,7 +4547,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 111.76) (xy 87.63 111.76)
+			(xy 67.31 111.76) (xy 85.09 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4597,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 87.63 69.85)
+			(xy 82.55 74.93) (xy 85.09 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4857,7 +4847,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 69.85) (xy 82.55 71.12)
+			(xy 80.01 74.93) (xy 80.01 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4937,7 +4927,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 69.85) (xy 87.63 71.12)
+			(xy 85.09 74.93) (xy 85.09 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4967,7 +4957,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 78.74) (xy 82.55 93.98)
+			(xy 80.01 83.82) (xy 80.01 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5107,6 +5097,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 93.98) (xy 97.79 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc722d5b-46c9-40bd-9ad8-0c08a759dd93")
+	)
+	(wire
+		(pts
 			(xy 67.31 99.06) (xy 88.9 99.06)
 		)
 		(stroke
@@ -5117,7 +5117,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 93.98) (xy 82.55 93.98)
+			(xy 67.31 93.98) (xy 80.01 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5207,7 +5207,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 82.55 69.85)
+			(xy 82.55 74.93) (xy 80.01 74.93)
 		)
 		(stroke
 			(width 0)
@@ -5227,13 +5227,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 78.74) (xy 87.63 111.76)
+			(xy 85.09 83.82) (xy 85.09 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db843f7d-7744-453c-bb04-bba3409d4876")
+	)
+	(wire
+		(pts
+			(xy 85.09 111.76) (xy 97.79 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db973720-9333-4f97-82f0-fbcea64e9a8f")
 	)
 	(bus
 		(pts
@@ -5964,7 +5974,7 @@
 	)
 	(symbol
 		(lib_id "cm0:+3V3_IO")
-		(at 85.09 68.58 0)
+		(at 82.55 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5973,7 +5983,7 @@
 		(fields_autoplaced yes)
 		(uuid "0115e4b5-9448-4dc2-bd0e-0cba5f060100")
 		(property "Reference" "#PWR0151"
-			(at 85.09 72.39 0)
+			(at 82.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5982,7 +5992,7 @@
 			)
 		)
 		(property "Value" "+3V3_IO"
-			(at 85.09 63.5 0)
+			(at 82.55 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,7 +6000,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 68.58 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +6009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 68.58 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,7 +6018,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3_IO\""
-			(at 85.09 68.58 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6296,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 82.55 74.93 0)
+		(at 80.01 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6294,7 +6304,7 @@
 		(dnp no)
 		(uuid "2496f0bc-41b8-4f62-a358-81fcb57061c8")
 		(property "Reference" "R51"
-			(at 82.55 74.93 90)
+			(at 80.01 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6302,7 +6312,7 @@
 			)
 		)
 		(property "Value" "56k"
-			(at 84.836 74.93 90)
+			(at 82.296 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6320,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 80.772 74.93 90)
+			(at 78.232 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +6329,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 74.93 0)
+			(at 80.01 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,7 +6338,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 82.55 74.93 0)
+			(at 80.01 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +6347,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25796"
-			(at 82.55 74.93 90)
+			(at 80.01 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6346,7 +6356,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 82.55 74.93 90)
+			(at 80.01 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,7 +6365,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 82.55 74.93 90)
+			(at 80.01 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,7 +7644,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 87.63 74.93 0)
+		(at 85.09 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7642,7 +7652,7 @@
 		(dnp no)
 		(uuid "be8f4fd3-11ef-4cdf-87c3-e4fce7fc757e")
 		(property "Reference" "R52"
-			(at 87.63 74.93 90)
+			(at 85.09 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7650,7 +7660,7 @@
 			)
 		)
 		(property "Value" "56k"
-			(at 89.916 74.93 90)
+			(at 87.376 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +7668,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 85.852 74.93 90)
+			(at 83.312 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7667,7 +7677,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 74.93 0)
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7676,7 +7686,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 87.63 74.93 0)
+			(at 85.09 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7685,7 +7695,7 @@
 			)
 		)
 		(property "LCSC Part #" "C25796"
-			(at 87.63 74.93 90)
+			(at 85.09 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +7704,7 @@
 			)
 		)
 		(property "FT Position Offset" ""
-			(at 87.63 74.93 90)
+			(at 85.09 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7703,7 +7713,7 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
-			(at 87.63 74.93 90)
+			(at 85.09 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5,12 +5,12 @@
 	(uuid "9316c606-8d4b-40a3-ba82-5b69f4cfa9b7")
 	(paper "A4")
 	(title_block
-		(title "Icepi CM0")
-		(date "2025-11-21")
+		(title "Icepi SBC")
+		(date "2025-12-21")
 		(rev "v1.0")
 		(company "Icy Electronics")
 		(comment 1 "Chengyin Yao (cheyao)")
-		(comment 2 "https://github.com/cheyao/icepi-cm0")
+		(comment 2 "https://github.com/cheyao/icepi-sbc")
 		(comment 3 "License: Solderpad")
 	)
 	(lib_symbols)
@@ -100,6 +100,17 @@
 			(justify left bottom)
 		)
 		(uuid "d9835f5e-4e28-4f1d-9665-cbe818f1bc68")
+	)
+	(text "Power Tree"
+		(exclude_from_sim no)
+		(at 134.62 22.86 0)
+		(effects
+			(font
+				(face "Fira Sans Medium")
+				(size 7.5 7.5)
+			)
+		)
+		(uuid "f742c10d-6bcc-47c2-b100-7166b9dbf7a2")
 	)
 	(text_box "DRAM"
 		(exclude_from_sim no)

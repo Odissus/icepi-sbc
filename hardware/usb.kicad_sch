@@ -5,12 +5,12 @@
 	(uuid "3894b81b-7803-4200-9150-192386c076f6")
 	(paper "A4")
 	(title_block
-		(title "Icepi CM0")
-		(date "2025-11-21")
+		(title "Icepi SBC")
+		(date "2025-12-21")
 		(rev "v1.0")
 		(company "Icy Electronics")
 		(comment 1 "Chengyin Yao (cheyao)")
-		(comment 2 "https://github.com/cheyao/icepi-cm0")
+		(comment 2 "https://github.com/cheyao/icepi-sbc")
 		(comment 3 "License: Solderpad")
 	)
 	(lib_symbols
@@ -3033,7 +3033,7 @@
 	)
 	(text_box "SY6280AAC: Current limiter\nIlim (A)=6800/Rset (ohm)\nUSB spec gives 0.5A\nWe'll be generous and give 0.68A\nUsing these bad boys instead of fuses\nbecause they can block reverse current\n\nUSB PD:\n0ohm to GND for 5V."
 		(exclude_from_sim no)
-		(at 118.11 123.444 0)
+		(at 116.84 119.38 0)
 		(size 40.894 19.812)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke

@@ -5,12 +5,12 @@
 	(uuid "b53f5dbb-8078-4818-9e8f-fdf90ba6d854")
 	(paper "A4")
 	(title_block
-		(title "Icepi CM0")
-		(date "2025-11-21")
+		(title "Icepi SBC")
+		(date "2025-12-21")
 		(rev "v1.0")
 		(company "Icy Electronics")
 		(comment 1 "Chengyin Yao (cheyao)")
-		(comment 2 "https://github.com/cheyao/icepi-cm0")
+		(comment 2 "https://github.com/cheyao/icepi-sbc")
 		(comment 3 "License: Solderpad")
 	)
 	(lib_symbols

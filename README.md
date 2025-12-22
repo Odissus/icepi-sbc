@@ -36,6 +36,8 @@ It's small, compact form factor allows it to be a nice portable computer that yo
 
 ## PCB
 
+[Check out the online version here](https://github.com/cheyao/icepi-sbc/tree/main/hardware).
+
 The PCB is only 4 layered, ensuring minimal cost and overhead during production. But for mass production 6 layers is recommended, putting solid ground on In.1 and In.4, then copy the power plane to In.2 and In.3. (Impedance matching might be required depending on stackup)
 
 ![](https://hc-cdn.hel1.your-objectstorage.com/s/v3/00d8fd5a9346eeed_image.png)

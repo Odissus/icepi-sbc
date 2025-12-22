@@ -5,12 +5,12 @@
 	(uuid "fe54244b-e615-4199-aafb-0dca476cb857")
 	(paper "A4")
 	(title_block
-		(title "Icepi CM0")
-		(date "2025-11-21")
+		(title "Icepi SBC")
+		(date "2025-12-21")
 		(rev "v1.0")
 		(company "Icy Electronics")
 		(comment 1 "Chengyin Yao (cheyao)")
-		(comment 2 "https://github.com/cheyao/icepi-cm0")
+		(comment 2 "https://github.com/cheyao/icepi-sbc")
 		(comment 3 "License: Solderpad")
 	)
 	(lib_symbols
@@ -5598,7 +5598,7 @@
 		)
 	)
 	(image
-		(at 232.156 59.69)
+		(at 234.442 52.07)
 		(uuid "b4e937fd-ab1b-42fe-a11f-37d46ee6ffbd")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAwoAAAMyCAIAAABCc6G2AAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOy9Z7hlVZk1Ot4ZVtjxpMqZqoIiJymiKGVJ1kYQtM2CCKgYultbbXPbJtRW8VNQGkliwCwKSM5I"

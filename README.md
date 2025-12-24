@@ -13,7 +13,7 @@ If there's a lot of people interested, there's a chance that I'll try to sell th
 
 - H3 Quad-Core ARM Cortex-A7 @ 1.296GHz CPU
     - Mali400 MP2 OpenGL ES 2.0 GPU
-- 512MiB of DDR3 RAM, tested up to 840MHz (Upgradable to 1GiB)
+- 512MiB of DDR3 RAM, stable at 696MHz (Upgradable to 1GiB)
 - Ethernet PHY, WiFi & Bluetooth
 - GPDI video out
 - USB connectors:
